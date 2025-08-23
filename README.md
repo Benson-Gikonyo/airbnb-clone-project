@@ -11,6 +11,7 @@ Project Goals:
 
 
 Tech Stack:
+    HTML, CSS, Reactjs
     Django: A high-level Python web framework used for building the RESTful API.
     Django REST Framework: Provides tools for creating and managing RESTful APIs.
     PostgreSQL: A powerful relational database used for data storage.
@@ -20,11 +21,65 @@ Tech Stack:
     Docker: Containerization tool for consistent development and deployment environments.
     CI/CD Pipelines: Automated pipelines for testing and deploying code changes.
 
+
+UI/UX Design Planning:
+
+Design Goals
+- Clean, modern, and intuitive interface
+- Easy navigation between listings and checkout
+- Consistent branding and styles
+- Responsive design (desktop & mobile)
+
+Key Features:
+    Property listing display
+    Property details with images & pricing
+    Simple checkout system
+
+Primary Pages:
+
+    Property Listing: Displays all available properties with images, price, and location |
+    Listing Details: Detailed view of a selected property (description, reviews, amenities) |
+    Checkout: Simple booking and payment flow for selected property |
+
+Why User-Friendly Design Matters:
+    In a booking system, a clear and easy-to-use design improves trust, reduces errors, and makes the booking experience faster and more enjoyable, leading to higher user satisfaction.
+
+Figma Design Specifications:
+
+    Color Styles:
+        Primary: `#FF5A5F`
+        Secondary: `#008489`
+        Background: `#FFFFFF`
+        Text: `#222222`
+        Secondary Text: `#717171`
+
+    Typography:
+        Primary Font: Circular, Medium (500), 16px
+        Headings: Circular, Bold (700), 24px–32px
+        Secondary Text: Circular, Book (400), 14px
+
+
+
 Team roles and Responsibilities:
+
     Database Administrator: They manage database design, optimization and indexing
     Backend Developer: They manage API implementation and integration, business logic and database schemas
     DevOps Engineer: They manage deployment, monitoring and scaling of the application
     QA Engineer: They manage testing of the application and make sure all standards are met
+    Project Manager Oversees timeline, coordinates team, manages deliverables 
+    Frontend Developers: Implements UI components, ensures responsive design 
+    Product Owner: Defines requirements, prioritizes features, represents stakeholders 
+    Scrum Master: Facilitates agile processes, removes blockers, organizes meetings     
+
+
+UI Component Patterns:
+
+Planned components:
+Navbar: Navigation across pages (logo, links, profile)
+Property Card: Displays image, title, price, and location of a property
+Footer: Contains links, copyright, and social
+
+
 
 
 Database Design:
