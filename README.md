@@ -10,7 +10,7 @@ Project Goals:
     Data Optimization: Ensure efficient data retrieval and storage through database optimizations.
 
 
-Tech Stack:
+Technology Stack:
     HTML, CSS, Reactjs
     Django: A high-level Python web framework used for building the RESTful API.
     Django REST Framework: Provides tools for creating and managing RESTful APIs.
@@ -60,7 +60,7 @@ Figma Design Specifications:
 
 
 
-Team roles and Responsibilities:
+Team roles:
 
     Database Administrator: They manage database design, optimization and indexing
     Backend Developer: They manage API implementation and integration, business logic and database schemas
@@ -152,7 +152,7 @@ The following measures will be put in place to ensure users can use the applicat
     Utilize API gateways to centralize security controls, enforce policies, manage traffic, and provide a single point of entry for APIs, enhancing overall security posture.
 
 
-CICD Pipelines:
+CI/CD Pipelines:
     A CI/CD pipeline is an automated software development workflow that streamlines the process of writing, testing, and deploying code, making releases faster, more reliable, and more consistent. It combines Continuous Integration (CI), where code changes are frequently merged into a shared repository and automatically tested to catch issues early, with Continuous Delivery/Deployment (CD), which automates the delivery of code to staging and production environments after successful testing.
 
     Tools used for this endeavor include:
